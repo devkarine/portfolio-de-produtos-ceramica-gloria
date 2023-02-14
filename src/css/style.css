@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "sf-pro-display";
+  src: url(../fonts/sf-pro-display.ttf);
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1440px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  background-color: #f7e6d8 ;
+}
+
+.header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  min-height: 75px;
+}
+.header .header-container .logo img {
+  width: 50rem;
+}
+
+h2{
+  font-size: 7rem;
+  text-align: center;
+  background-color: #D86F11;
+  
+}
+
+h3{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h4{
+  font-size: 1.8rem;
+}
+
+.produtos .container .tijolos {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+.produtos .container .tijolos .text-tijolos{
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  gap: 1rem;
+
+}
+
+.produtos .container .tijolos .text-tijolos p{
+  font-size: 2rem;
+}
+
+.produtos .container .tijolos .img-tijolos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 5rem;
+  background-color: #e7c2a1;;
+}
+
+.produtos .container .tijolos .img-tijolos img{
+  width: 50%;
+}
+
+.servicos .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.servicos .container .info-servicos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  gap: 1.5rem;
+  padding: 2rem;
+
+}
+
+.servicos .container .info-servicos.delivery{
+  padding-top: 10.8rem;
+}
+
+.servicos .container .info-servicos img{
+  width: 50%;
+}
+
+.servicos .container .info-servicos .text-info-servicos p{
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.obras .container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 6rem;
+}
+
+.obras .container .text-obras{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 3rem;
+}
+
+.obras .container .wrapper-img{
+  display: flex;
+  width: 25%;
+  height: 30rem;
+
+}
+
+.obras .container .wrapper-img img{
+  border: 0.1rem solid #861203;
+}
+
+.footer .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20rem;
+  font-size: 2rem;
+  background-color: #e7c2a1;
+}
+
+.footer .container address ul li a:hover{
+  color: #861203;
+  transition: 0.2s ease-in-out;
+  font-weight: 700;
+}
+.footer .container .vendedores ul li i{
+  color: green;
+  padding-right: 1rem;
+}
+
+.footer .container .vendedores ul li a:hover{
+  background-color: #D86F11;
+  transition: 0.2s ease-in-out;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.footer .container .redes .icons{
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.footer .container .redes .icons a:hover{
+  color: #861203;
+  scale: 2;
+
+}
+
+.footer .dev{
+  background-color: #e7c2a1;
+  text-align: center;
+  color: #861203;
+  padding-bottom: 1rem;
+}
+
+.footer .dev a:hover{
+  background-color: #D86F11;
+  border-radius: 1rem;
+  padding: 1rem;
+}
