@@ -5,12 +5,13 @@
 
 body {
   min-height: 100vh;
-  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  
 }
 
 .container {
-  margin: 0 auto;
-  width: 100%;
+  max-width: 1440px;
 }
 
 .header {
@@ -38,15 +39,39 @@ h2{
 h3{
   font-size: 4rem;
   font-weight: 700;
+  text-align: center;
 }
 
 h4{
   font-size: 1.8rem;
+  text-align: center;
+}
+
+.sobre .container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.produtos h4{
+  padding: 2rem;
+}
+
+.produtos .container{
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .produtos .container .tijolos {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -75,13 +100,15 @@ h4{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  border-radius: 50%;
   padding: 5rem;
-  background-color: #e7c2a1;;
+  background-color: #e7c2a1;
+  width: 40rem;
+  height: 30rem;
 }
 
 .produtos .container .tijolos .img-tijolos img{
-  width: 50%;
+  width: 100%;
 }
 
 .servicos .container{
