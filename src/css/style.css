@@ -146,6 +146,7 @@ h4{
   flex-direction: column;
   flex-wrap: wrap;
   padding-bottom: 6rem;
+  
 }
 
 .obras .container .text-obras{
@@ -157,13 +158,19 @@ h4{
 
 .obras .container .wrapper-img{
   display: flex;
-  width: 25%;
-  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  padding: 0 2rem;
 
 }
 
 .obras .container .wrapper-img img{
   border: 0.1rem solid #861203;
+  width: 40rem;
+  height: 30rem;
+  
 }
 
 .footer .container{
