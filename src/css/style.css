@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  background-color: #f7e6d8 ;
+  background-color: var(--bc-header-footer);
 }
 
 .header .header-container {
@@ -32,12 +32,12 @@ body {
 h2{
   font-size: 7rem;
   text-align: center;
-  background-color: #D86F11;
+  background-color: var(--bc-title);
   
 }
 
 h3{
-  font-size: 4rem;
+  font-size: clamp(2rem, 3vw, 4rem);
   font-weight: 700;
   text-align: center;
 }
@@ -69,7 +69,7 @@ h4{
 
 .produtos .container .tijolos {
     display: flex;
-    width: 100%;
+
     align-items: center;
     justify-content: center;
     
@@ -81,19 +81,19 @@ h4{
 
 .produtos .container .tijolos .text-tijolos{
   width: 50%;
-  height: 50rem;
+  height: 40rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  padding: 2rem;
   gap: 1rem;
 
 }
 
 .produtos .container .tijolos .text-tijolos p{
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .produtos .container .tijolos .img-tijolos{
@@ -102,7 +102,7 @@ h4{
   justify-content: center;
   border-radius: 50%;
   padding: 5rem;
-  background-color: #e7c2a1;
+  background-color: var(--bc-tijolos);
   width: 40rem;
   height: 30rem;
 }
@@ -144,7 +144,7 @@ h4{
 .obras .container{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+ 
   padding-bottom: 6rem;
   
 }
@@ -160,6 +160,7 @@ h4{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   gap: 2rem;
   padding: 0 2rem;
@@ -167,7 +168,8 @@ h4{
 }
 
 .obras .container .wrapper-img img{
-  border: 0.1rem solid #861203;
+  border: 0.1rem solid var(--hover) ;
+  box-shadow: 0.5rem 0.5rem 2rem var(--hover);
   width: 40rem;
   height: 30rem;
   
@@ -179,48 +181,49 @@ h4{
   justify-content: space-evenly;
   align-items: center;
   height: 20rem;
-  font-size: 2rem;
-  background-color: #e7c2a1;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  background-color: var(--bc-header-footer);
 }
 
 .footer .container address ul li a:hover{
-  color: #861203;
+  color: var(--hover) ;
   transition: 0.2s ease-in-out;
   font-weight: 700;
 }
 .footer .container .vendedores ul li i{
-  color: green;
+  color: var(--icon);
   padding-right: 1rem;
 }
 
 .footer .container .vendedores ul li a:hover{
-  background-color: #D86F11;
+  background-color: var(--hover) ;
   transition: 0.2s ease-in-out;
   border-radius: 1rem;
   padding: 0.5rem;
 }
-.footer .container .redes .icons{
+.footer .container .redes{
   display: flex;
+  justify-content: center;
   gap: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   
 }
 
-.footer .container .redes .icons a:hover{
-  color: #861203;
+.footer .container .redes a:hover{
+  color: var(--hover) ;
   scale: 2;
 
 }
 
 .footer .dev{
-  background-color: #e7c2a1;
+  background-color: var(--bc-header-footer);
   text-align: center;
-  color: #861203;
+  color: var(--hover) ;
   padding-bottom: 1rem;
 }
 
 .footer .dev a:hover{
-  background-color: #D86F11;
+  background-color: var(--hover) ;
   border-radius: 1rem;
   padding: 1rem;
 }
