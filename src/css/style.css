@@ -5,12 +5,13 @@
 
 body {
   min-height: 100vh;
-  margin: 0 auto;
-  width: 100%;
-  
+  background-color: var(--cor-botao);
+  padding: 0 10rem;
 }
 
 .container {
+  width: 100%;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
