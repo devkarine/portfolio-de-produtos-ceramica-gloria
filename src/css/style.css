@@ -5,14 +5,17 @@
 
 body {
   min-height: 100vh;
-  background-color: var(--cor-botao);
+  background-color: var(--bc-header-footer);
   padding: 0 10rem;
+  
+  max-width: 1440px;
+  
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
-  max-width: 1440px;
+  
 }
 
 .header {
@@ -34,6 +37,7 @@ h2{
   font-size: 7rem;
   text-align: center;
   background-color: var(--bc-title);
+  border-radius: 1rem;
   
 }
 
