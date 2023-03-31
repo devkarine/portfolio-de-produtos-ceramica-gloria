@@ -4,11 +4,11 @@
 }
 
 body {
+  max-width: 1440px;
   min-height: 100vh;
   background-color: var(--bc-header-footer);
   padding: 0 10rem;
   
-  max-width: 1440px;
   
 }
 
@@ -175,6 +175,7 @@ h4{
 .obras .container .wrapper-img img{
   border: 0.1rem solid var(--hover) ;
   box-shadow: 0.5rem 0.5rem 2rem var(--hover);
+  border-radius: 1rem;
   width: 40rem;
   height: 30rem;
   
