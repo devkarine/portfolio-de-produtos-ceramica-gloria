@@ -9,14 +9,11 @@ body {
   background-color: var(--bc-header-footer);
   padding: 0 10rem;
   margin: 0 auto;
-  
-  
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
-  
 }
 
 .header {
@@ -34,60 +31,53 @@ body {
   width: 50rem;
 }
 
-h2{
-  font-size: 7rem;
+h2 {
+  font-size: clamp(4rem, 4vw, 7rem);
   text-align: center;
   background-color: var(--bc-title);
   border-radius: 1rem;
-  
 }
 
-h3{
+h3 {
   font-size: clamp(2rem, 3vw, 4rem);
   font-weight: 700;
   text-align: center;
 }
 
-h4{
+h4 {
   font-size: 1.8rem;
   text-align: center;
 }
 
-.sobre .container{
+.sobre .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-size: clamp(0.9rem, 2vw, 2rem);
   padding: 3rem;
 }
 
-.produtos h4{
+.produtos h4 {
   padding: 2rem;
   margin-bottom: 5rem;
 }
 
-.produtos .container{
+.produtos .container {
   display: flex;
   flex-direction: column;
-  
 }
 
 .produtos .container .tijolos {
-    display: flex;
+  display: flex;
 
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10rem;
-    
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
 }
 
-
-
-
-
-.produtos .container .tijolos .text-tijolos{
+.produtos .container .tijolos .text-tijolos {
   width: 50%;
   height: auto;
   display: flex;
@@ -97,16 +87,13 @@ h4{
   justify-content: center;
   padding: 5rem;
   gap: 1rem;
-  
-
 }
 
-.produtos .container .tijolos .text-tijolos p{
+.produtos .container .tijolos .text-tijolos p {
   font-size: clamp(1.5rem, 3vw, 2rem);
-  
 }
 
-.produtos .container .tijolos .img-tijolos{
+.produtos .container .tijolos .img-tijolos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,16 +104,16 @@ h4{
   height: 30rem;
 }
 
-.produtos .container .tijolos .img-tijolos img{
+.produtos .container .tijolos .img-tijolos img {
   width: 100%;
 }
 
-.servicos .container{
+.servicos .container {
   display: flex;
-  
+  width: 100%;
 }
 
-.servicos .container .info-servicos{
+.servicos .container .info-servicos {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -135,38 +122,27 @@ h4{
   width: 33%;
   gap: 1.5rem;
   padding: 2rem;
-
 }
 
-.servicos .container .info-servicos.delivery{
-  padding-top: 10.8rem;
-}
-
-.servicos .container .info-servicos img{
-  max-width: 50%;
- 
-}
-
-.servicos .container .info-servicos .text-info-servicos p{
-  font-size: 1.5rem;
+.servicos .container .info-servicos .text-info-servicos p {
+  font-size: clamp(0.9rem, 2vw, 1.5rem);
   padding-top: 1.5rem;
 }
 
-.obras .container{
+.obras .container {
   display: flex;
   flex-direction: column;
   padding-bottom: 6rem;
-  
 }
 
-.obras .container .text-obras{
+.obras .container .text-obras {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
   padding: 3rem;
 }
 
-.obras .container .wrapper-img{
+.obras .container .wrapper-img {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,66 +150,57 @@ h4{
   width: 100%;
   gap: 2rem;
   padding: 0 2rem;
-
 }
 
-.obras .container .wrapper-img img{
-  border: 0.1rem solid var(--hover) ;
+.obras .container .wrapper-img img {
+  border: 0.1rem solid var(--hover);
   box-shadow: 0.5rem 0.5rem 2rem var(--hover);
   border-radius: 1rem;
-  width: 40rem;
-  height: 30rem;
-  
+
+  width: 30rem;
+  height: 20rem;
 }
 
-.footer .container{
+.footer .container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 40rem;
+  height: 25rem;
   font-size: clamp(1.5rem, 3vw, 2rem);
   background-color: var(--bc-header-footer);
 }
 
-.footer .container address ul li a:hover{
-  color: var(--hover) ;
+.footer .container address ul li a:hover {
+  color: var(--hover);
   transition: 0.2s ease-in-out;
-  font-weight: 700;
 }
-.footer .container .vendedores ul li i{
+.footer .container .vendedores ul li i {
   color: var(--icon);
   padding-right: 1rem;
 }
 
-.footer .container .vendedores ul li a:hover{
-  background-color: var(--hover) ;
+.footer .container .vendedores ul li a:hover {
+  color: var(--hover);
   transition: 0.2s ease-in-out;
-  border-radius: 1rem;
-  padding: 0.5rem;
 }
-.footer .container .redes{
+.footer .container .redes {
   display: flex;
   justify-content: center;
   gap: 1rem;
   padding: 1rem 0;
-  
 }
 
-.footer .container .redes a:hover{
-  color: var(--hover) ;
+.footer .container .redes a:hover {
+  color: var(--hover);
   scale: 2;
-
 }
 
-.footer .dev{
-  background-color: var(--bc-header-footer);
+.footer .dev {
   text-align: center;
-  color: var(--hover) ;
+  font-weight: 700;
   padding-bottom: 1rem;
 }
 
-.footer .dev a:hover{
-  background-color: var(--hover) ;
-  border-radius: 1rem;
-  padding: 1rem;
+.footer .dev a:hover {
+  color: var(--hover);
 }

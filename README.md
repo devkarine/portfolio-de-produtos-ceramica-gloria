@@ -17,14 +17,12 @@ A história das cores foi feita seguindo a identidade visual da própria empresa
 
 
 
-<!-- ## 🖱️ A página
+## 🖱️ A página
 
-<img src="src/images/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site"> -->
+<img src="images/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">
 
 > <a href="https://portfolio-ceramica-gloria.vercel.app/" target= "_blank">Acesse a página online</a>
 
-
->Site em Construção
 
 ## 👩‍💻 Dev
 

@@ -1,60 +1,59 @@
-@media(max-width:1310px){
-    .footer .container{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-
+@media (max-width: 1310px) {
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media(max-width: 700px){
+@media (max-width: 860px) {
+  .produtos .container .tijolos .img-tijolos {
+    width: 30rem;
+    height: 20rem;
+  }
 
-    body {
-        padding: 0 6rem;
-    }
-
-    .servicos .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-
-        
-      }
-
-      .produtos .container .tijolos {
-        display: flex;
-        flex-direction: column;
-        border-bottom: 0.1rem solid var(--hover);
-        padding: 7rem;
-    }
-
-    .produtos .container .tijolos:nth-child(1){
-        flex-direction: column-reverse;
-    }
-
-    .produtos .container .tijolos:nth-child(3){
-        flex-direction: column-reverse;
-    }
-
-    .produtos .container .tijolos:nth-child(5){
-        flex-direction: column-reverse;
-    }
-
-    .produtos .container .tijolos:nth-child(7){
-        flex-direction: column-reverse;
-    }
-
-    .produtos .container .tijolos .text-tijolos p,
-    .produtos .container .tijolos .text-tijolos h3{
-        width: 30rem;
-      }
+  .obras .container .wrapper-img img {
+    width: 22rem;
+    height: 15rem;
+  }
 }
 
-@media(width: 480px){
-    body {
-        padding: 0 4rem;
-    }
+@media (max-width: 700px) {
+  body {
+    padding: 0 2rem;
+  }
+
+  .produtos .container .tijolos {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.1rem solid var(--hover);
+    padding: 7rem;
+  }
+
+  .produtos .container .tijolos:nth-child(1) {
+    flex-direction: column-reverse;
+  }
+
+  .produtos .container .tijolos:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .produtos .container .tijolos:nth-child(5) {
+    flex-direction: column-reverse;
+  }
+
+  .produtos .container .tijolos:nth-child(7) {
+    flex-direction: column-reverse;
+  }
+
+  .produtos .container .tijolos .text-tijolos p,
+  .produtos .container .tijolos .text-tijolos h3 {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .obras .container .wrapper-img img {
+    width: 12rem;
+    height: 10rem;
+  }
 }
