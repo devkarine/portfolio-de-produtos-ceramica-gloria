@@ -166,7 +166,7 @@ h4 {
   justify-content: space-evenly;
   align-items: center;
   height: 25rem;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.3rem, 3vw, 2rem);
   background-color: var(--bc-header-footer);
 }
 
